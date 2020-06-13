@@ -6,7 +6,7 @@ $ sudo asterisk -rx "file convert path/source/file/audio.wav path/output/file/au
 
 if you got this error while converting, 
 ```
-Unable to open input file: /opt/voice_master/VOICE-RETRIEVE/INA/RI25.wav
+Unable to open input file: path/source/file/audio.wav
 ```
 
 you can convert to gsm first with sox:
